@@ -32,3 +32,10 @@ def numeros_primos(lista):
     return [n for n in lista if primo(n)]
 
 print(numeros_primos([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11])) 
+
+
+#Questão 3: 
+def diferenca_simetrica(lista_1, lista_2):
+    return list(set(lista_1) ^ set(lista_2))
+                
+print(diferenca_simetrica([1, 2, 3, 4], [3, 4, 5, 6])) 
