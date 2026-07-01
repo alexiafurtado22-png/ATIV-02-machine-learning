@@ -16,3 +16,19 @@ def numeros_impares(infinito):
 
 print(numeros_impares(8))
 
+
+#Questão 2:
+
+#Realizando uma função 'primo' avalio se terão números divisíveis de 2 até a raiz quadrada desse número.
+def primo(n):
+    if n < 2:
+        return False
+    for i in range(2, int(n ** 0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+
+def numeros_primos(lista):
+    return [n for n in lista if primo(n)]
+
+print(numeros_primos([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11])) 
