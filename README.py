@@ -1,6 +1,6 @@
 # Atividade 2 - Machine Learning - AVANTI
 
-Questão 1:
+#Questão 1:
 
 #Uma lista de que o dev consegue colocar os números que ele quiser, e a função vai retornar apenas os números ímpares dessa lista.
 
@@ -16,4 +16,3 @@ def numeros_impares(infinito):
 
 print(numeros_impares(8))
 
-Resultado de ambos: [1, 3, 5, 7]
